@@ -36,8 +36,13 @@ This pipeline was implemented on Knime including the following workflows:
 
 **1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)**<br><br>
 <img src="images/datacollection.svg.gz.svg" alt="data collection" width="100%" height="100%" >
-2- Fine-Tuning BERT as a bot detector.<br>
-<img src="images/BD_TWITTER.svg" alt="bot detection" width="100%" height="100%" >
-3- Fine-Tuning BERT as an emotion detector.<br>
-4- Deploying trained models.<br>
-5- Identifying emotions' triggers using LDA.<br>
+**2- Fine-Tuning BERT as a bot detector**<br><br>
+<img src="images/train_bd.svg" alt="bot detection" width="100%" height="100%" >
+**3- Fine-Tuning BERT as an emotion detector**<br><br>
+<img src="images/train_ed.svg" alt="bot detection" width="100%" height="100%" >
+**4- Deploying trained models**<br><br>
+<img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > <br><br>
+<img src="images/BD_TWITTER.svg" alt="bot detection" width="100%" height="100%" > <br><br>
+<img src="images/ED_TWITTER.svg" alt="bot detection" width="100%" height="100%" > <br><br>
+**5- Identifying emotions' triggers using LDA**<br><br>
+<img src="images/tm.svg" alt="bot detection" width="100%" height="100%" >
