@@ -35,7 +35,7 @@ During the COVID-19 pandemic, understanding public sentiment was crucial for pub
 This pipeline was implemented on Knime including the following workflows:
 
 1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)<br>
-
+<img src="images/datacollection.svg.gz.svg" alt="data collection" width="100%" height="100%" >
 2- Fine-Tuning BERT as a bot detector.<br>
 <img src="images/BD_TWITTER.svg" alt="bot detection" width="100%" height="100%" >
 3- Fine-Tuning BERT as an emotion detector.<br>
