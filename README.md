@@ -53,6 +53,6 @@ To identify COVID-19-related discussions, we extracted keywords from relevant Wi
     Your text goes here.
 </div>
 
-![Alt Text](images/mian.svg)
+<img src="images/mian.svg" alt="bot detection" width="30%" height="30%" > 
 
 
