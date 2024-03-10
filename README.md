@@ -31,7 +31,7 @@ Weights of trained models are acessible [here.](https://drive.google.com/drive/f
 * http://saifmohammad.com/WebPages/EmotionIntensity-SharedTask.html
 
 ## Business Contribution:
-During the COVID-19 pandemic, understanding public sentiment was crucial for public health decision-makers. To address this need, Public Health Dorset implemented a data analytics pipeline. This pipeline retrieved relevant tweets from the Twitter API, filtered out non-human accounts, and then analyzed the remaining tweets for four primary emotions. Additionally, topic modeling was employed to identify the underlying causes of these emotions.
+During the COVID-19 pandemic, understanding public sentiment was crucial for public health decision-makers. To address this need, [Public Health Dorset](https://www.publichealthdorset.org.uk) implemented a data analytics pipeline. This pipeline retrieved relevant tweets from the Twitter API, filtered out non-human accounts, and then analyzed the remaining tweets for four primary emotions. Additionally, topic modeling was employed to identify the underlying causes of these emotions.
 This pipeline was implemented on Knime including the following workflows:
 
 **1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)**<br>
