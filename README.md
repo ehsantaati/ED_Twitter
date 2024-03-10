@@ -36,41 +36,6 @@ This pipeline was implemented on Knime including the following workflows:
 
 **1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)**<br>
 To identify COVID-19-related discussions, we extracted keywords from relevant Wikipedia articles. Utilizing these keywords, along with location filters for Bournemouth, Poole, Christchurch, and Dorset, and time-based parameters, we retrieved tweets from the Twitter API using the following workflow:<br>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Extracting COVID-19 Tweets</title>
-  <style>
-    body {
-      display: flex;
-      margin: 0;
-      padding: 20px;
-    }
-    .text-container {
-      flex: 1;
-    }
-    .image-container {
-      flex: 0 0 200px;
-      margin-left: 20px;
-    }
-    img {
-      width: 100%;
-      height: auto;
-    }
-  </style>
-</head>
-<body>
-  <div class="text-container">
-    <p>To identify COVID-19-related discussions, we extracted keywords from relevant Wikipedia articles. Utilizing these keywords, along with location filters for Bournemouth, Poole, Christchurch, and Dorset, and time-based parameters, we retrieved tweets from the Twitter API using the following workflow:</p>
-    <p>Insert your workflow description here.</p>
-  </div>
-  <div class="image-container">
-    <img src="images/datacollection.svg.gz.svg" alt="Image related to COVID-19 data collection">
-  </div>
-</body>
-</html>
 <img src="images/datacollection.svg.gz.svg" alt="data collection" width="100%" height="100%" >
 **2- Fine-Tuning BERT as a Bot Detector**<br><br>
 <img src="images/train_bd.svg" alt="bot detection" width="100%" height="100%" >
