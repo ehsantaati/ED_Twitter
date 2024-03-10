@@ -44,12 +44,15 @@ Given the project's goal of monitoring public emotions on social media during th
 Simliarly, we fine tuned BERT to have a multi class classifier to identfy emotions(anger, fear, joy and sadness).<br><br>
 <img src="images/train_ed.svg" alt="bot detection" width="100%" height="100%" >
 **5- Identifying Emotions' Triggers using Topic Modelling by LDA**<br><br>
+To understand the underlying causes of the identified emotions, we employed topic modeling using Latent Dirichlet Allocation (LDA). LDA helps us group and identify recurring themes within each set of tweets expressing a specific emotion (anger, fear, joy, sadness). These thematic clusters were then analyzed by an expert to pinpoint potential triggers for each emotion. <br><br>
 <img src="images/tm.svg" alt="bot detection" width="100%" height="100%" ><br><br>
 **4- Deploying Trained Models**<br><br>
+The bot and emotions detectors were deployed to be integreated in the automated data flow.<br><br>
 <img src="images/BD_TWITTER.svg" alt="bot detection" width="100%" height="100%" > <br><br>
 <img src="images/ED_Twitter.svg" alt="emotion detection" width="100%" height="100%" > <br><br>
 
 **6- Automated Data Flow** <br><br>
+Executing this workflow triggered the entire Automated Data Flow, running the data collector, bot detector, emotion detector, and topic modeling processes in sequence.<br><br>
 <img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > 
 
 
