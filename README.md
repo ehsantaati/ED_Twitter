@@ -49,24 +49,15 @@ To identify COVID-19-related discussions, we extracted keywords from relevant Wi
 **6- Automated Data Flow** <br><br>
 <img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > 
 
-<style>
-.image-text-container {
-  display: flex; /* Enable horizontal layout */
-}
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
-.image-text-container img {
-  float: right; /* Align image to the right */
-  margin: 0 10px 10px 0; /* Add margins for spacing (optional) */
-}
+**Content of your README**
 
-.image-text-container p {
-  flex: 1; /* Allow text to fill remaining space */
-  margin: 10px 0 0 10px; /* Add margins for spacing (optional) */
-}
-</style>
 <div class="image-text-container">
-  <img src="images/mian.svg" alt="Image description" width="20%" height="20%" />
-  <p>Your text content here</p>
+  <img src="images/mian.svg" alt="bot detection" width="50%" height="50%" />
+  <p>This is some text content that will flow to the left of the image.</p>
 </div>
 
 
