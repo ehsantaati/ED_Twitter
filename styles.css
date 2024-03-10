@@ -1,0 +1,13 @@
+.image-text-container {
+  display: flex; /* Enable horizontal layout */
+}
+
+.image-text-container img {
+  float: right; /* Align image to the right (optional, can be replaced with flexbox) */
+  margin: 0 10px 10px 0; /* Add margins for spacing */
+}
+
+.image-text-container p {
+  flex: 1; /* Allow text to fill remaining space */
+  margin: 10px 0 0 10px; /* Add margins for spacing */
+}
