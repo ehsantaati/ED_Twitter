@@ -34,7 +34,7 @@ Weights of trained models are acessible [here.](https://drive.google.com/drive/f
 During the COVID-19 pandemic, understanding public sentiment was crucial for public health decision-makers. To address this need, Public Health Dorset implemented a data analytics pipeline. This pipeline retrieved relevant tweets from the Twitter API, filtered out non-human accounts, and then analyzed the remaining tweets for four primary emotions. Additionally, topic modeling was employed to identify the underlying causes of these emotions.
 This pipeline was implemented on Knime including the following workflows:
 
-1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)<br>
+**1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)**<br><br>
 <img src="images/datacollection.svg.gz.svg" alt="data collection" width="100%" height="100%" >
 2- Fine-Tuning BERT as a bot detector.<br>
 <img src="images/BD_TWITTER.svg" alt="bot detection" width="100%" height="100%" >
