@@ -49,15 +49,10 @@ To identify COVID-19-related discussions, we extracted keywords from relevant Wi
 **6- Automated Data Flow** <br><br>
 <img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > 
 
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-**Content of your README**
-
-<div class="image-text-container">
-  <img src="images/mian.svg" alt="bot detection" width="50%" height="50%" />
-  <p>This is some text content that will flow to the left of the image.</p>
+<div style="float:left; margin-right:10px;">
+    Your text goes here.
 </div>
+
+![Alt Text](images/mian.svg)
 
 
