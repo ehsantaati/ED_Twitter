@@ -43,6 +43,6 @@ This pipeline was implemented on Knime including the following workflows:
 **4- Deploying trained models**<br><br>
 <img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > <br><br>
 <img src="images/BD_TWITTER.svg" alt="bot detection" width="100%" height="100%" > <br><br>
-<img src="images/ED_TWITTER.svg" alt="bot detection" width="100%" height="100%" > <br><br>
+<img src="images/ED_Twitter.svg" alt="emotion detection" width="100%" height="100%" > <br><br>
 **5- Identifying emotions' triggers using LDA**<br><br>
 <img src="images/tm.svg" alt="bot detection" width="100%" height="100%" >
