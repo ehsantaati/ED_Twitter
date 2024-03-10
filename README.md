@@ -35,7 +35,7 @@ During the COVID-19 pandemic, understanding public sentiment was crucial for pub
 This pipeline was implemented on Knime including the following workflows:
 
 **1- [Collecting related tweettes from Twitter API](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)**<br>
-To identify COVID-19-related discussions, we extracted keywords from relevant Wikipedia articles. Utilizing these keywords, along with location filters for Bournemouth, Poole, Christchurch, and Dorset, and time-based parameters, we retrieved tweets from the Twitter API using the following workflow:<br>
+To identify COVID-19-related discussions, we extracted keywords from relevant Wikipedia articles. Utilizing these keywords, along with location filters for Bournemouth, Poole, Christchurch, and Dorset, and time-based parameters, we retrieved tweets from the Twitter API using the following workflow:<br><br>
 <img src="images/datacollection.svg.gz.svg" alt="data collection" width="100%" height="100%" >
 **2- Fine-Tuning BERT as a Bot Detector**<br><br>
 <img src="images/train_bd.svg" alt="bot detection" width="100%" height="100%" >
