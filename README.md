@@ -48,3 +48,23 @@ To identify COVID-19-related discussions, we extracted keywords from relevant Wi
 <img src="images/tm.svg" alt="bot detection" width="100%" height="100%" ><br><br>
 **6- Automated Data Flow** <br><br>
 <img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > 
+
+<!-- HTML and CSS styles for alignment -->
+<style>
+  .image-wrapper {
+    float: right;
+    margin: 0 0 1em 1em; /* Adjust margins as needed */
+  }
+</style>
+
+<!-- Text to the left of the image -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum ex ac dui placerat, at ullamcorper justo vestibulum. Duis nec magna ac urna eleifend dapibus. Cras varius justo in eros ultrices, at tempus purus vestibulum. Integer semper eget nisi nec varius. Vivamus sodales risus vitae libero tincidunt consequat.
+
+<!-- Image aligned to the right -->
+<div class="image-wrapper">
+  <img src="images/mian.svg" alt="Image">
+</div>
+
+<!-- Continue with text or content -->
+Nulla facilisi. Fusce id tellus auctor, convallis odio nec, accumsan sem. Mauris hendrerit aliquam purus vel cursus. Suspendisse potenti. Phasellus a ligula tellus. Sed congue urna in quam commodo, sit amet vestibulum leo sodales. Donec commodo urna nec tortor congue feugiat.
+
