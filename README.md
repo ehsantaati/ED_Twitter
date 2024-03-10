@@ -36,6 +36,7 @@ This pipeline was implemented on Knime including the following workflows:
 
 1- [Collecting related tweettes from Twitter API:](https://hub.knime.com/-/spaces/-/~a1so1UnYcIAwYAiY/current-state/)<br>
 2- Fine-Tuning BERT as a bot detector.<br>
+<img src="ima" alt="Word_cloud" width="50%" height="50%" >
 3- Fine-Tuning BERT as an emotion detector.<br>
 4- Deploying trained models.<br>
 5- Identifying emotions' triggers using LDA.<br>
