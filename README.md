@@ -38,6 +38,7 @@ This pipeline was implemented on Knime including the following workflows:
 To identify COVID-19-related discussions, we extracted keywords from relevant Wikipedia articles. Utilizing these keywords, along with location filters for Bournemouth, Poole, Christchurch, and Dorset, and time-based parameters, we retrieved tweets from the Twitter API using the following workflow:<br><br>
 <img src="images/datacollection.svg.gz.svg" alt="data collection" width="100%" height="100%" >
 **2- Fine-Tuning BERT as a Bot Detector**<br><br>
+Given the project's goal of monitoring public emotions on social media during the pandemic, we needed to exclude tweets not written by humans. To achieve this, we labeled a dataset containing tweets written by both bots and humans. We then fine-tuned a pre-trained language model [BERT](https://github.com/google-research/bert) to classify tweets as human-written or bot-written.
 <img src="images/train_bd.svg" alt="bot detection" width="100%" height="100%" >
 **3- Fine-Tuning BERT as an Emotion Detector**<br><br>
 <img src="images/train_ed.svg" alt="bot detection" width="100%" height="100%" >
@@ -48,11 +49,5 @@ To identify COVID-19-related discussions, we extracted keywords from relevant Wi
 <img src="images/tm.svg" alt="bot detection" width="100%" height="100%" ><br><br>
 **6- Automated Data Flow** <br><br>
 <img src="images/mian.svg" alt="bot detection" width="100%" height="100%" > 
-
-<div style="float:left; margin-right:10px;">
-    Your text goes here.
-</div>
-
-<img src="images/mian.svg" alt="bot detection" width="30%" height="30%" > 
 
 
